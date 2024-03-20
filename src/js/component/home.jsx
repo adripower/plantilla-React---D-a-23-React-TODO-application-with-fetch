@@ -19,7 +19,7 @@ const Home = () => {
 		}
 	})
       .then((response) => response.json())
-      .then((data) => getAllTasks())
+      .then((data) => getAllTasks(data))
       .catch((error) => console.log(error))
   }
 
