@@ -52,10 +52,9 @@ const Home = () => {
 console.log(tareas)
   return (
     <div className="text-center">
-      <h1 className="text-center mt-5">Hello Rigo!</h1>// aqui se pone counter
-      que es donde se mostrara
+      <h1 className="text-center mt-5">Hello Rigo!</h1>
       <a href="#" className="btn btn-success">
-        // se añade onclick para añadir la funcion handleCounter If you see this
+      If you see this
         green button... bootstrap is working...
       </a>
       <ul>
