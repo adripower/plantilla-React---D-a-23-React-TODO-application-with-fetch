@@ -11,8 +11,8 @@ const Home = () => {
 
   //para llamar a un API y REGISTRAR al usuario
   function createUsers() {
-    fetch("https://playground.4geeks.com/apis/fake/todos/user/adri1234",{
-		method:"POST",
+    fetch("https://playground.4geeks.com/apis/fake/todos/user/adri123",{
+		method:"get",
 		body: JSON.stringify([]),
 		headers:{
 			"Content-Type": "application/json"
@@ -24,7 +24,7 @@ const Home = () => {
   }
 
   function getAllTasks() {
-    fetch ("https://playground.4geeks.com/apis/fake/todos/user/adri1234")
+    fetch ("https://playground.4geeks.com/apis/fake/todos/user/adri123")
     .then((responder)=> {
       if (responder.ok) {
         return responder.json()
